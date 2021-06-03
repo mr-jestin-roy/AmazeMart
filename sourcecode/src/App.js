@@ -1,7 +1,18 @@
 import './App.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    Redirect
+  } from "react-router-dom";
+
+  import home from "./Home";
+
+
 
 function App() {
- return <div className= "app">Hello World ! AMAZE MART IS HERE!</div>;
+    return <div className="home">Hello World Again!!</div>;
 }
 
 export default App;
