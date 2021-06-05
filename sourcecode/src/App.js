@@ -7,7 +7,7 @@ import {
     Redirect
   } from "react-router-dom";
 
-  import home from "./Home";
+  import home from "./components/Home";
 
 
 
