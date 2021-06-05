@@ -6,8 +6,7 @@ import {
     Link,
     Redirect
   } from "react-router-dom";
-
-  import Home from './components/Home';
+  import Header from "./components/Header";
 
 
 
@@ -19,11 +18,12 @@ function App() {
           <Route path = "/checkout">
             <h1>CheckOut</h1>
           </Route>
-          <Router path = "/login">
+          <Route path = "/login">
             <h1>Login Page</h1>
-          </Router>
+          </Route>
           <Route path = "/">
             {/*this is the default route*/}
+            <Header />
             <h1>Home Page!!</h1>
           </Route>
         </Switch>
