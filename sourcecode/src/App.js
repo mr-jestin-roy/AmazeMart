@@ -13,10 +13,22 @@ import {
 
 function App() {
     return (
-      <div className="container">
-        <h1>Hello, World</h1>
-        <Home />
-      </div>
+      <Router>
+        <div className="container">
+        <Switch>
+          <Route path = "/checkout">
+            <h1>CheckOut</h1>
+          </Route>
+          <Router path = "/login">
+            <h1>Login Page</h1>
+          </Router>
+          <Route path = "/">
+            {/*this is the default route*/}
+            <h1>Home Page!!</h1>
+          </Route>
+        </Switch>
+        </div>
+      </Router>
     );
 }
 
