@@ -7,12 +7,17 @@ import {
     Redirect
   } from "react-router-dom";
 
-  import home from "./components/Home";
+  import Home from './components/Home';
 
 
 
 function App() {
-    return <div className="home">Hello World Again!!</div>;
+    return (
+      <div className="container">
+        <h1>Hello, World</h1>
+        <Home />
+      </div>
+    );
 }
 
 export default App;
