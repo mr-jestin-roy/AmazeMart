@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+}
+.navbarLogo {
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 18px;
+}
+
+.navbarSearch {
+  display: flex;
+}
+
+.navbarSearchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.navbarSearchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
