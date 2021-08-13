@@ -1,13 +1,8 @@
+import React from 'react';
 import './App.css';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    Redirect
-  } from "react-router-dom";
-  import Header from "./components/Header";
-
+import Header from "./components/Header";
+import Home from "./components/Home";
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 
 function App() {
@@ -16,6 +11,7 @@ function App() {
         <div className="container">
         <Switch>
           <Route path = "/checkout">
+            <Header />
             <h1>CheckOut</h1>
           </Route>
           <Route path = "/login">
@@ -24,7 +20,7 @@ function App() {
           <Route path = "/">
             {/*this is the default route*/}
             <Header />
-            <h1>Home Page!!</h1>
+            <Home />
           </Route>
         </Switch>
         </div>

@@ -2,6 +2,9 @@
   background-color: #131921;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .navbarLogo {
   width: 100px;
@@ -14,6 +17,43 @@
 .navbarSearch {
   display: flex;
   flex: 1;
+}
+
+.navbar_nav{
+  display: flex; 
+  justify-content: space-evenly;
+}
+
+.navbar_link{
+  color: white;
+  text-decoration: none;
+}
+.navbar_option{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.navbar_optionLineOne{
+  font-size: 10px;
+}
+
+.navbar_optionLineTwo{
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.navbar_optionBasket{
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.navbar_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbarSearchInput {
