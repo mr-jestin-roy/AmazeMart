@@ -8,24 +8,24 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          src="https://m.media-amazon.com/images/I/61FuWeCuGCL._SX3000_.jpg"
           alt=""
         />
 
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
+            title="Apple MacBook Pro 13' with Touch Bar, 10th-Generation Quad-Core Intel Core i7 2.3GHz, 16GB RAM, 512GB SSD, Space Gray (Mid 2020)"
+            price={1999.99}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            image="https://m.media-amazon.com/images/I/61gcCcu6VQL._AC_UY327_FMwebp_QL65_.jpg"
           />
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
+            title="Ikigai: The Japanese Secret to a Long and Happy Life"
+            price={13.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            image="https://m.media-amazon.com/images/I/71tbalAHYCL._AC_UY327_FMwebp_QL65_.jpg"
           />
         </div>
 
@@ -56,10 +56,10 @@ function Home() {
         <div className="home__row">
           <Product
             id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            title="SAMSUNG QN32Q50RAFXZA Flat 32' QLED 4K 32Q50 Series Smart TV (2019 model)"
+            price={399.99}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/51NKhnjhpGL._AC_UY327_FMwebp_QL65_.jpg"
           />
         </div>
       </div>
