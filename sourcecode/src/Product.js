@@ -1,9 +1,9 @@
 import React from "react";
 import "./Product.css";
-import { UseStateValue } from "./StateProvider";
+import { useStateValue } from "./StateProvider";
 
 function Product({ id, title, image, price, rating }) {
-  const [{ basket }, dispatch] = UseStateValue();
+  const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
     // dispatch the item into the data layer
@@ -31,7 +31,7 @@ function Product({ id, title, image, price, rating }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p>⭐</p>
+              <p>🌟</p>
             ))}
         </div>
       </div>

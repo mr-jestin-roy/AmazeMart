@@ -1,13 +1,18 @@
-import React from 'react';
-import Product from "./Product";
+import React from "react";
 import "./Home.css";
+import Product from "./Product";
 
-function Home(){
-    return (
-        <div className="home">
-            <img className="home_image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/AmazonDevices/2019/HeroJune21/2x_Echo_Dot_B084DWH53T_3000x1200_new._CB667724833_.jpg" alt="" />
-            {/*prod id,title,price , rating, image*/}
-            <div className="home__row">
+function Home() {
+  return (
+    <div className="home">
+      <div className="home__container">
+        <img
+          className="home__image"
+          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          alt=""
+        />
+
+        <div className="home__row">
           <Product
             id="12321341"
             title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
@@ -57,9 +62,9 @@ function Home(){
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
+      </div>
     </div>
-
-    ); 
+  );
 }
 
 export default Home;
