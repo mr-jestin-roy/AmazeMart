@@ -1,11 +1,15 @@
+
 import React from 'react';
 import "./Header.css";
 import {Link} from "react-router-dom";
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
-
+import { UseStateValue } from "./StateProvider";
 
 function navbar() {
+    const [{basket, user }, dispatch] = UseStateValue();
+    
+    // console.log(basket);
     return (
         <nav className="navbar">
             {/*LOGO*/}
@@ -51,7 +55,9 @@ function navbar() {
                         {/*shopping basket icon*/}
                         <ShoppingBasketIcon />
                         {/*Number of items in the basket*/}
-                        <span className="navbar_optionLineTwo navbar_basketCount">0</span>
+                        <span className="header__optionLineTwo header__basketCount">
+              {basket?.length}
+            </span>
                     </div>
                 </Link>
             </div>
